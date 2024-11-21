@@ -1,0 +1,38 @@
+.filmgrid {
+    display: grid;
+    /* Active le mode grille */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* Taille minimum des colonnes réduite */
+    gap: 20px;
+    /* Espacement entre les cellules */
+    margin: 5%;
+    /* Espacement autour de la grille */
+}
+
+.filmgrid div {
+
+    /* Couleur d'arrière-plan pour tester */
+    border-radius: 5px;
+    /* Coins arrondis */
+    overflow: hidden;
+    /* Les images qui débordent sont coupées */
+    max-width: 150px;
+    /* Limite la taille des cellules */
+    margin: auto;
+    /* Centre les divs si elles sont plus petites */
+}
+
+.filmgrid img {
+    width: auto;
+    /* Laisse la largeur de l'image s'ajuster automatiquement */
+    height: auto;
+    /* Maintient le ratio d'origine de l'image */
+    max-width: 300px;
+    /* Double la largeur maximale (au lieu de 150px, passe à 300px) */
+    max-height: 200px;
+    /* Double la hauteur maximale (au lieu de 100px, passe à 200px) */
+    display: block;
+    /* Évite les marges automatiques */
+    margin: auto;
+    /* Centre l'image dans son conteneur */
+}
