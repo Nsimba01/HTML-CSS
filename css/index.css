@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.banniere {
+
+
+    background-image: url("../images/Team-HarryPotter.jpg");
+
+    width: 100%;
+
+    height: 300px;
+
+    background-repeat: no-repeat;
+
+
+    background-position: center;
+
+    background-size: cover;
+
+
+
+}
+
+
+.conteneur-banniere {
+
+    display: flex;
+
+    flex-direction: column;
+
+    position: relative;
+
+    width: 100%;
+
+
+
+
+
+}
+
+.big-title {
+
+    position: absolute;
+
+    left: 26%;
+
+
+    color: red;
+
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+
+    font-weight: 990;
+
+
+
+
+
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+a:hover {
+
+    transform: scale(2);
+
+    background-color: yellow;
+}
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+    margin-bottom: 13%;
+
+
+
+
+}
+
+.msg-home {
+
+
+
+    text-align: center;
+
+    font-size: 250%;
+
+
+}
