@@ -35,4 +35,17 @@
     /* Évite les marges automatiques */
     margin: auto;
     /* Centre l'image dans son conteneur */
+
+    transition: transform 0.001s;
+
+
+
+}
+
+.filmgrid div:hover {
+
+    transform: scale(2);
+
+
+
 }
